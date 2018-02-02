@@ -8,6 +8,10 @@
   text-shadow: 1px 1px 5px black;
 }
 
+#header h1 {
+  font-family: Helvetica;
+}
+
 .banner {
   margin: 0;
 }
