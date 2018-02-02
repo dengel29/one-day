@@ -1,0 +1,107 @@
+body{
+  background: black;
+  color: green;
+  /*font-size: 25px;*/
+  font-family: Helvetica;
+}
+h1{
+  font-family: monospace;
+  color: red;
+  font-weight: lighter;
+  font-size: 100px;
+}
+h2 {
+  font-family: Courier;
+  color: pink;
+  font-weight: lighter;
+  font-size: 18px;
+}
+a {
+  color: yellow;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#header{
+  text-align: center;
+  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url("http://acceler8.ph/images/coworking.jpg?format=2500w");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+.banner h1 {
+  font-size: 100px;
+}
+
+.banner p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.row{
+  background-color: #DDDDDD;
+}
+
+.container {
+  padding:20px 0px;
+  background-color: #DDDDDD;
+  display:flex;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+.card{
+  padding: 50px;
+  background-color: white;
+  text-align:center;
+  width:220px;
+  height:300px;
+  border:dashed;
+}
+
+
+.card h2 {
+  font-size: 35;
+}
+
+.card p {
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.card img {
+  width:100px;
+  margin-bottom: 50px
+}
+
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
