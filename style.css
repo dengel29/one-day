@@ -33,6 +33,10 @@ a:hover {
   text-shadow: 1px 1px 5px black;
 }
 
+.banner {
+  margin: 0;
+}
+
 .banner h1 {
   font-size: 100px;
 }
