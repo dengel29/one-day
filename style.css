@@ -1,11 +1,13 @@
 
 #header{
-  text-align: center;
-  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url("http://acceler8.ph/images/coworking.jpg?format=2500w");
+  /*text-align: center;*/
+  justify-content: left;
+  background-image: linear-gradient(-200deg, rgba(248, 150, 216, 0.3) 0%, rgba(0,36,61,0.6) 50%), url("https://source.unsplash.com/random/");
   background-size: cover;
   padding: 150px;
   color: white;
   text-shadow: 1px 1px 5px black;
+  margin-left: -150px;
 }
 
 #header h1 {
@@ -14,6 +16,7 @@
 
 .banner {
   margin: 0;
+  height: 51vh;
 }
 
 .banner h1 {
@@ -26,21 +29,28 @@
 }
 
 .row{
-  background-color: #DDDDDD;
+  justify-content: center;
+  top-margin: 50px;
+  padding-top: 100px
 }
 
 .container {
   padding:20px 0px;
-  background-color: #DDDDDD;
+  background-color: #724CF9;
+  background: linear-gradient(-200deg, rgba(248, 150, 216, 0.3) 0%, rgba(0,36,61,0.6) 40%)
+  background-size: cover;
+  width: 100vw;
   display:flex;
   justify-content: space-between;
   text-align: center;
+  height: 85vh;
+
 
 }
 
 .card{
   padding: 50px;
-  background-color: white;
+  background-color: lightyellow;
   text-align:center;
   width:220px;
   height:300px;
@@ -52,7 +62,7 @@
 }
 
 .card p {
-  font-weight: lighter;
+  /*font-weight: lighter;*/
   font-size: 15px;
 }
 
