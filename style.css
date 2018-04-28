@@ -144,83 +144,16 @@ a:hover {
 }
 
 .btn {
-  background:#D42C14;
+  background:#E8C559;
   color:white;
   font-weight: bolder;
   width:150px;
-  border:1px solid #AB2513;
+  border:1px solid #E8C559;
 }
 
 .btn:hover {
-  background:#AB2513;
+  background:#9E8C3E;
+  border: none;
   color:white;
 }
 
-
-
-/*#header{
-  text-align: center;
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 50%), url("images/shanghai.jpg");
-  background-size: cover;
-  padding: 150px;
-  color: white;
-}
-
-#header p {
-  margin: 40px;
-}
-
-.card{
-  padding: 50px;
-  font-weight: lighter;
-  background-color: white;
-  text-align:center;
-  width:200px;
-}
-
-#footer{
-  padding: 50px;
-  background: rgb(30, 30, 30);
-  color: lightgrey;
-  text-align: center;
-  line-height: 2;
-}
-
-#footer ul {
-  padding-left:0;
-  list-style: none;
-}
-
-#footer li {
-  display: inline-block;
-  padding:0px 10px;
-}
-
-.input {
-  font-size: 18px;
-  height:50px;
-  padding:0px 15px;
-  background:white;
-  border:1px solid lightgray;
-  width:200px;
-  border-radius:3px;
-}
-
-.btn {
-  background:#D42C14;
-  color:white;
-  font-weight: bolder;
-  width:150px;
-  border:1px solid #AB2513;
-}
-
-.btn:hover {
-  background:#AB2513;
-  color:white;
-}
-
-a.btn {
-    padding: 15px;
-    text-decoration: none;
-}
-*/
