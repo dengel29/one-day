@@ -84,6 +84,10 @@ a:hover {
   text-align: center;
 }
 
+.card h2 {
+  color:#E8C559
+}
+
 .card{
   padding: 50px;
   font-weight: lighter;
@@ -93,7 +97,7 @@ a:hover {
 }
 
 .card p {
-  font-weight: bolder;
+  font-weight: 15;
 }
 
 .card img {
