@@ -1,99 +1,226 @@
+/* general body */
+/****************/
+
+body{
+  background: #FFFFFF;
+  color: #2E2E2E;
+  font-size: 15px;
+  font-family: Helvetica;
+  margin: 0 auto;
+}
+h1{
+  color: #FFFFFF;
+  font-weight: bolder;
+  font-size: 50px;
+}
+h2 {
+  color: #FFFFF;
+  font-weight: bolder;
+  font-size: 20px;
+}
+a {
+  color: lightgrey;
+}
+a:hover {
+  text-decoration: none;
+  color: #AB2513;
+}
+
+/****************/
+/* navbar */
+/****************/
+
+#navbar {
+  background:white;
+  padding:5px;
+  text-align: center;
+}
+
+#navbar img {
+  max-height: 70px
+}
+
+/****************/
+/* header */
+/****************/
 
 #header{
-  /*text-align: center;*/
-  justify-content: left;
-  background-image: linear-gradient(-200deg, rgba(248, 150, 216, 0.3) 0%, rgba(0,36,61,0.6) 50%), url("https://source.unsplash.com/random/");
+  text-align: center;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 50%), url("images/walnut-banner.jpeg");
   background-size: cover;
   padding: 150px;
   color: white;
-  text-shadow: 1px 1px 5px black;
-  margin-left: -150px;
+  max-height: ;
+  height:50vh;
 }
 
-#header h1 {
-  font-family: Helvetica;
+#header p {
+  font-size: 25px;
+  margin:40px;
 }
 
-.banner {
-  margin: 0;
-  height: 51vh;
+#header a.btn {
+  padding:15px;
+  text-decoration: none;
 }
 
-.banner h1 {
-  font-size: 100px;
-}
-
-.banner p {
-  font-size: 20px;
-  font-weight: lighter;
-}
-
-.row{
+#header h2 {
+  font-size: 60px;
+  max-width: 100vw;
+  text-align: center;
   justify-content: center;
-  top-margin: 50px;
-  padding-top: 100px
 }
+
+
+/****************/
+/* content */
+/****************/
 
 .container {
   padding:20px 0px;
-  background-color: #724CF9;
-  background: linear-gradient(-200deg, rgba(248, 150, 216, 0.3) 0%, rgba(0,36,61,0.6) 40%)
-  background-size: cover;
-  width: 100vw;
+  background-color: #F3F3F3;
   display:flex;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
-  height: 85vh;
-
-
 }
 
 .card{
   padding: 50px;
-  background-color: lightyellow;
+  font-weight: lighter;
+  background-color: white;
   text-align:center;
-  width:220px;
-  height:300px;
-  border:dashed;
-}
-
-.card h2 {
-  font-size: 35;
+  width:200px;
 }
 
 .card p {
-  /*font-weight: lighter;*/
-  font-size: 15px;
+  font-weight: bolder;
 }
 
 .card img {
   width:100px;
-  margin-bottom: 50px
 }
 
-.footer {
-  background: #F4F4F4;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
-  color: rgba(0,0,0,0.3);
+/****************/
+/* footer */
+/****************/
+
+#footer{
+  padding: 50px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  text-align: center;
+  line-height: 2;
 }
-.footer-links {
-  display: flex;
-  align-items: center;
+#footer a {
+  color: lightgrey;
+  font-size: 20px;
 }
-.footer-links a {
-  color: black;
-  opacity: 0.15;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 0px 10px;
+#footer a:hover {
+  color: white;
 }
-.footer-links a:hover {
-  opacity: 1;
+
+#footer ul {
+  padding-left:0;
+  list-style: none;
 }
-.footer .fa-heart {
-  color: #D23333;
+
+#footer li {
+  display: inline-block;
+  padding:0px 10px;
 }
+
+/****************/
+/* forms */
+/****************/
+
+.input {
+  font-size: 18px;
+  height:50px;
+  padding:0px 15px;
+  background:white;
+  border:1px solid lightgray;
+  width:200px;
+  border-radius:3px;
+}
+
+.btn {
+  background:#D42C14;
+  color:white;
+  font-weight: bolder;
+  width:150px;
+  border:1px solid #AB2513;
+}
+
+.btn:hover {
+  background:#AB2513;
+  color:white;
+}
+
+
+
+/*#header{
+  text-align: center;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 50%), url("images/shanghai.jpg");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+}
+
+#header p {
+  margin: 40px;
+}
+
+.card{
+  padding: 50px;
+  font-weight: lighter;
+  background-color: white;
+  text-align:center;
+  width:200px;
+}
+
+#footer{
+  padding: 50px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+  text-align: center;
+  line-height: 2;
+}
+
+#footer ul {
+  padding-left:0;
+  list-style: none;
+}
+
+#footer li {
+  display: inline-block;
+  padding:0px 10px;
+}
+
+.input {
+  font-size: 18px;
+  height:50px;
+  padding:0px 15px;
+  background:white;
+  border:1px solid lightgray;
+  width:200px;
+  border-radius:3px;
+}
+
+.btn {
+  background:#D42C14;
+  color:white;
+  font-weight: bolder;
+  width:150px;
+  border:1px solid #AB2513;
+}
+
+.btn:hover {
+  background:#AB2513;
+  color:white;
+}
+
+a.btn {
+    padding: 15px;
+    text-decoration: none;
+}
+*/
